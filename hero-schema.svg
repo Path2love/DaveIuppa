@@ -6,6 +6,19 @@
   </pattern>
 </defs>
 <rect width="1200" height="900" fill="url(#dots)"></rect>
+
+<!-- background circuit traces -->
+<g stroke="#5980a6" stroke-width="1.2" fill="none" opacity="0.07">
+  <path d="M 98 760 L 98 660 L 260 660 L 260 500"></path>
+  <path d="M 1102 260 L 1102 340 L 940 340 L 940 430"></path>
+  <path d="M 200 300 L 380 300 L 380 210"></path>
+</g>
+<g stroke="#5980a6" fill="none" opacity="0.05">
+  <circle cx="1050" cy="240" r="40"></circle>
+  <circle cx="1050" cy="240" r="80"></circle>
+  <circle cx="1050" cy="240" r="120"></circle>
+</g>
+
 <rect x="48" y="48" width="1104" height="804" fill="none" stroke="#1d1f20" stroke-opacity="0.3" stroke-width="1.5"></rect>
 <g stroke="#1d1f20" stroke-width="1.5" opacity="0.5">
   <line x1="48" y1="48" x2="80" y2="48"></line><line x1="48" y1="48" x2="48" y2="80"></line>
@@ -14,58 +27,189 @@
   <line x1="1152" y1="852" x2="1120" y2="852"></line><line x1="1152" y1="852" x2="1152" y2="820"></line>
 </g>
 <text x="90" y="112" font-size="13" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.5">SCHEMA — S.C.A.L.E. OPERATING SYSTEM</text>
+<text x="90" y="132" font-size="10.5" letter-spacing="1.5" font-family="monospace" fill="#1d1f20" opacity="0.38">FIVE STAGES · ONE OPERATING SYSTEM</text>
 
-<line x1="164" y1="470" x2="1036" y2="470" stroke="#5980a6" stroke-width="1.5" opacity="0.55"></line>
-<polygon points="1036,470 1020,462 1020,478" fill="#5980a6" opacity="0.7"></polygon>
+<!-- top dimension line -->
+<g stroke="#5980a6" stroke-width="1.2" opacity="0.55">
+  <line x1="98" y1="165" x2="98" y2="175"></line>
+  <line x1="1102" y1="165" x2="1102" y2="175"></line>
+  <line x1="104" y1="170" x2="1096" y2="170"></line>
+  <polygon points="98,170 108,166 108,174" fill="#5980a6"></polygon>
+  <polygon points="1102,170 1092,166 1092,174" fill="#5980a6"></polygon>
+</g>
+<text x="600" y="158" text-anchor="middle" font-size="10" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.45">OPERATING SPAN</text>
 
-<g font-size="15" fill="#1d1f20">
-  
-  <g transform="translate(120,390)">
-    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
-    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">S</text>
-    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
-      <circle cx="70" cy="80" r="20"></circle>
-      <circle cx="70" cy="80" r="7"></circle>
-      <line x1="70" y1="60" x2="70" y2="53"></line><line x1="70" y1="100" x2="70" y2="107"></line>
-      <line x1="50" y1="80" x2="43" y2="80"></line><line x1="90" y1="80" x2="97" y2="80"></line>
-    </g>
-    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">STREAMLINE</text>
+<!-- ===== module template repeated 5x, each translated ===== -->
+<!-- S -->
+<g transform="translate(98,380)">
+  <rect width="180" height="190" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+  <rect x="132" y="12" width="36" height="18" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="150" y="25" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#416180">01</text>
+  <text x="16" y="46" font-size="32" font-weight="700" fill="#416180">S</text>
+  <g transform="translate(90,118)" stroke="#2c455d" stroke-width="1.8" fill="none" opacity="0.88">
+    <circle cx="-10" cy="-8" r="15"></circle>
+    <circle cx="-10" cy="-8" r="4" fill="#2c455d"></circle>
+    <line x1="5" y1="-8" x2="10" y2="-8"></line>
+    <line x1="0.6" y1="2.6" x2="4.1" y2="6.1"></line>
+    <line x1="-10" y1="7" x2="-10" y2="12"></line>
+    <line x1="-20.6" y1="2.6" x2="-24.1" y2="6.1"></line>
+    <line x1="-25" y1="-8" x2="-30" y2="-8"></line>
+    <line x1="-20.6" y1="-18.6" x2="-24.1" y2="-22.1"></line>
+    <line x1="-10" y1="-23" x2="-10" y2="-28"></line>
+    <line x1="0.6" y1="-18.6" x2="4.1" y2="-22.1"></line>
+    <rect x="2" y="-14" width="22" height="30" fill="#f2f2f3" stroke="#2c455d" stroke-width="1.6"></rect>
+    <circle cx="7" cy="-6" r="2" fill="#597ea3" stroke="none"></circle>
+    <line x1="12" y1="-6" x2="21" y2="-6"></line>
+    <circle cx="7" cy="1" r="2" fill="#597ea3" stroke="none"></circle>
+    <line x1="12" y1="1" x2="21" y2="1"></line>
+    <circle cx="7" cy="8" r="2" fill="#597ea3" stroke="none"></circle>
+    <line x1="12" y1="8" x2="21" y2="8"></line>
   </g>
-  <g transform="translate(340,390)">
-    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
-    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">C</text>
-    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
-      <circle cx="70" cy="80" r="22"></circle>
-      <line x1="70" y1="80" x2="70" y2="64"></line>
-      <line x1="70" y1="80" x2="82" y2="86"></line>
-    </g>
-    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">CAPACITY</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12.5" letter-spacing="1.4" font-weight="500" fill="#1d1f20" opacity="0.78">STREAMLINE</text>
+  <text x="90" y="176" text-anchor="middle" font-size="10" fill="#1d1f20" opacity="0.5">SOP PLAYBOOKS</text>
+</g>
+
+<!-- connector S->C -->
+<g stroke="#5980a6" stroke-width="1.6" opacity="0.6">
+  <circle cx="280" cy="475" r="3" fill="#5980a6" stroke="none"></circle>
+  <line x1="283" y1="475" x2="296" y2="475"></line>
+  <polygon points="304,475 294,471 294,479" fill="#5980a6"></polygon>
+</g>
+
+<!-- C -->
+<g transform="translate(304,380)">
+  <rect width="180" height="190" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+  <rect x="132" y="12" width="36" height="18" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="150" y="25" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#416180">02</text>
+  <text x="16" y="46" font-size="32" font-weight="700" fill="#416180">C</text>
+  <g transform="translate(90,118)" stroke="#2c455d" stroke-width="1.8" fill="none" opacity="0.88">
+    <circle cx="0" cy="-2" r="20"></circle>
+    <circle cx="0" cy="-2" r="26" opacity="0.55" stroke="#597ea3" stroke-width="1.4" stroke-dasharray="6 5"></circle>
+    <polygon points="0,-30 -4,-24 4,-24" fill="#597ea3" stroke="none"></polygon>
+    <line x1="0" y1="-19" x2="0" y2="-2" stroke-width="1.4"></line>
+    <line x1="0" y1="15" x2="0" y2="-2" stroke-width="1.4"></line>
+    <line x1="17" y1="-19" x2="14" y2="-16" stroke-width="1.4"></line>
+    <line x1="0" y1="-19" x2="0" y2="-16" stroke-width="1.4"></line>
+    <line x1="-17" y1="-19" x2="-14" y2="-16" stroke-width="1.4"></line>
+    <line x1="0" y1="18" x2="0" y2="15" stroke-width="1.4"></line>
+    <line x1="17" y1="15" x2="14" y2="12" stroke-width="1.4"></line>
+    <line x1="-17" y1="15" x2="-14" y2="12" stroke-width="1.4"></line>
+    <circle cx="0" cy="-2" r="2" fill="#2c455d"></circle>
   </g>
-  <g transform="translate(560,390)">
-    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
-    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">A</text>
-    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
-      <circle cx="52" cy="92" r="7"></circle><circle cx="88" cy="92" r="7"></circle><circle cx="70" cy="62" r="7"></circle>
-      <line x1="70" y1="69" x2="52" y2="85"></line><line x1="70" y1="69" x2="88" y2="85"></line><line x1="52" y1="92" x2="88" y2="92"></line>
-    </g>
-    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">ALIGN</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12.5" letter-spacing="1.4" font-weight="500" fill="#1d1f20" opacity="0.78">CAPACITY</text>
+  <text x="90" y="176" text-anchor="middle" font-size="10" fill="#1d1f20" opacity="0.5">10&#8211;15 HRS/WK</text>
+</g>
+
+<!-- connector C->A -->
+<g stroke="#5980a6" stroke-width="1.6" opacity="0.6">
+  <circle cx="486" cy="475" r="3" fill="#5980a6" stroke="none"></circle>
+  <line x1="489" y1="475" x2="502" y2="475"></line>
+  <polygon points="510,475 500,471 500,479" fill="#5980a6"></polygon>
+</g>
+
+<!-- A -->
+<g transform="translate(510,380)">
+  <rect width="180" height="190" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+  <rect x="132" y="12" width="36" height="18" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="150" y="25" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#416180">03</text>
+  <text x="16" y="46" font-size="32" font-weight="700" fill="#416180">A</text>
+  <g transform="translate(90,118)" stroke="#2c455d" stroke-width="1.6" fill="none" opacity="0.88">
+    <line x1="0" y1="-18" x2="-16" y2="10"></line>
+    <line x1="0" y1="-18" x2="16" y2="10"></line>
+    <line x1="-16" y1="10" x2="16" y2="10"></line>
+    <circle cx="0" cy="-18" r="11" stroke="#597ea3" stroke-width="1" stroke-dasharray="2 3" opacity="0.7"></circle>
+    <circle cx="0" cy="-18" r="7" fill="#eef6ff"></circle>
+    <circle cx="0" cy="-18" r="2" fill="#2c455d" stroke="none"></circle>
+    <circle cx="-16" cy="10" r="6" fill="#f2f2f3"></circle>
+    <circle cx="-16" cy="10" r="2" fill="#2c455d" stroke="none"></circle>
+    <circle cx="16" cy="10" r="6" fill="#f2f2f3"></circle>
+    <circle cx="16" cy="10" r="2" fill="#2c455d" stroke="none"></circle>
   </g>
-  <g transform="translate(780,390)">
-    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
-    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">L</text>
-    <g stroke="#1d1f20" stroke-width="1.6" fill="none" stroke-linejoin="round" opacity="0.75">
-      <polygon points="76,58 56,90 68,90 62,104 84,72 71,72" fill="none"></polygon>
+  <text x="90" y="160" text-anchor="middle" font-size="12.5" letter-spacing="1.4" font-weight="500" fill="#1d1f20" opacity="0.78">ALIGN</text>
+  <text x="90" y="176" text-anchor="middle" font-size="10" fill="#1d1f20" opacity="0.5">ONE KPI EACH</text>
+</g>
+
+<!-- connector A->L -->
+<g stroke="#5980a6" stroke-width="1.6" opacity="0.6">
+  <circle cx="692" cy="475" r="3" fill="#5980a6" stroke="none"></circle>
+  <line x1="695" y1="475" x2="708" y2="475"></line>
+  <polygon points="716,475 706,471 706,479" fill="#5980a6"></polygon>
+</g>
+
+<!-- L -->
+<g transform="translate(716,380)">
+  <rect width="180" height="190" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+  <rect x="132" y="12" width="36" height="18" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="150" y="25" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#416180">04</text>
+  <text x="16" y="46" font-size="32" font-weight="700" fill="#416180">L</text>
+  <g transform="translate(90,118)">
+    <circle cx="0" cy="-2" r="24" stroke="#597ea3" stroke-width="1.2" fill="none" opacity="0.5"></circle>
+    <g stroke="#597ea3" stroke-width="1.4" opacity="0.6">
+      <line x1="24" y1="-2" x2="29" y2="-2"></line>
+      <line x1="-24" y1="-2" x2="-29" y2="-2"></line>
+      <line x1="0" y1="-26" x2="0" y2="-31"></line>
+      <line x1="0" y1="22" x2="0" y2="27"></line>
     </g>
-    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">LEVERAGE</text>
+    <polygon points="1,-28 -12,-1 -2,-1 -9,26 15,-9 3,-9" fill="#d6ebff" stroke="#2c455d" stroke-width="1.6"></polygon>
   </g>
-  <g transform="translate(1000,390)">
-    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
-    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">E</text>
-    <g stroke="#1d1f20" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
-      <path d="M70 58 C 82 66, 84 84, 70 100 C 56 84, 58 66, 70 58 Z"></path>
-      <line x1="63" y1="98" x2="58" y2="108"></line><line x1="77" y1="98" x2="82" y2="108"></line>
-    </g>
-    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">EXPAND</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12.5" letter-spacing="1.4" font-weight="500" fill="#1d1f20" opacity="0.78">LEVERAGE</text>
+  <text x="90" y="176" text-anchor="middle" font-size="10" fill="#1d1f20" opacity="0.5">$9/MO STACK</text>
+</g>
+
+<!-- connector L->E -->
+<g stroke="#5980a6" stroke-width="1.6" opacity="0.6">
+  <circle cx="898" cy="475" r="3" fill="#5980a6" stroke="none"></circle>
+  <line x1="901" y1="475" x2="914" y2="475"></line>
+  <polygon points="922,475 912,471 912,479" fill="#5980a6"></polygon>
+</g>
+
+<!-- E -->
+<g transform="translate(922,380)">
+  <rect width="180" height="190" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+  <rect x="132" y="12" width="36" height="18" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="150" y="25" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="1" fill="#416180">05</text>
+  <text x="16" y="46" font-size="32" font-weight="700" fill="#416180">E</text>
+  <g transform="translate(90,118)" stroke="#2c455d" stroke-width="1.6" fill="none" opacity="0.88">
+    <line x1="-26" y1="18" x2="26" y2="18"></line>
+    <line x1="-26" y1="-22" x2="26" y2="-22" stroke="#597ea3" stroke-width="1.2" stroke-dasharray="3 3" opacity="0.7"></line>
+    <rect x="-20" y="6" width="8" height="12" fill="#d6ebff"></rect>
+    <rect x="-6" y="-6" width="8" height="24" fill="#d6ebff"></rect>
+    <rect x="8" y="-18" width="8" height="36" fill="#d6ebff"></rect>
+    <line x1="18" y1="-6" x2="18" y2="-32" stroke-width="1.8"></line>
+    <polygon points="18,-38 13,-30 23,-30" fill="#2c455d" stroke="none"></polygon>
   </g>
+  <text x="90" y="160" text-anchor="middle" font-size="12.5" letter-spacing="1.4" font-weight="500" fill="#1d1f20" opacity="0.78">EXPAND</text>
+  <text x="90" y="176" text-anchor="middle" font-size="10" fill="#1d1f20" opacity="0.5">PREMIUM MARGIN</text>
+</g>
+
+<!-- ground bus -->
+<g stroke="#416180" stroke-width="1.4" opacity="0.45">
+  <line x1="98" y1="630" x2="1102" y2="630"></line>
+</g>
+<g stroke="#1d1f20" stroke-width="1.2" opacity="0.35">
+  <line x1="188" y1="570" x2="188" y2="630"></line>
+  <line x1="394" y1="570" x2="394" y2="630"></line>
+  <line x1="600" y1="570" x2="600" y2="630"></line>
+  <line x1="806" y1="570" x2="806" y2="630"></line>
+  <line x1="1012" y1="570" x2="1012" y2="630"></line>
+</g>
+<g fill="#416180">
+  <circle cx="188" cy="630" r="3"></circle>
+  <circle cx="394" cy="630" r="3"></circle>
+  <circle cx="600" cy="630" r="3"></circle>
+  <circle cx="806" cy="630" r="3"></circle>
+  <circle cx="1012" cy="630" r="3"></circle>
+</g>
+<text x="1102" y="650" text-anchor="end" font-size="10.5" letter-spacing="1.5" font-family="monospace" fill="#1d1f20" opacity="0.45">SYSTEM BUS</text>
+
+<!-- spec plate -->
+<g>
+  <rect x="832" y="756" width="270" height="62" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.2" stroke-opacity="0.3"></rect>
+  <circle cx="856" cy="778" r="7" stroke="#1d1f20" stroke-width="1.2" stroke-opacity="0.4" fill="none"></circle>
+  <line x1="856" y1="771" x2="856" y2="785" stroke="#1d1f20" stroke-width="1" stroke-opacity="0.4"></line>
+  <line x1="849" y1="778" x2="863" y2="778" stroke="#1d1f20" stroke-width="1" stroke-opacity="0.4"></line>
+  <text x="878" y="774" font-size="11" font-family="monospace" fill="#1d1f20" opacity="0.55">REV 2026.08.20</text>
+  <text x="878" y="791" font-size="9.5" font-family="monospace" fill="#1d1f20" opacity="0.4">PROJECT — DAVE IUPPA S.C.A.L.E.</text>
+  <text x="878" y="806" font-size="9.5" font-family="monospace" fill="#1d1f20" opacity="0.4">SCALE — NOT TO SCALE</text>
 </g>
 </svg>

@@ -13,40 +13,129 @@
   <line x1="44" y1="1156" x2="76" y2="1156"></line><line x1="44" y1="1156" x2="44" y2="1124"></line>
   <line x1="856" y1="1156" x2="824" y2="1156"></line><line x1="856" y1="1156" x2="856" y2="1124"></line>
 </g>
-<text x="88" y="106" font-size="12" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.5">FRAMEWORK — FOUNDATION TO PEAK EXPANSION</text>
+<text x="88" y="100" font-size="12" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.5">FRAMEWORK — FOUNDATION TO PEAK EXPANSION</text>
+<text x="88" y="118" font-size="10" letter-spacing="1.5" font-family="monospace" fill="#1d1f20" opacity="0.38">FIVE STAGES · ISOMETRIC VIEW</text>
 <text x="812" y="1150" font-size="11" letter-spacing="1" font-family="monospace" fill="#1d1f20" opacity="0.4" text-anchor="end">SHEET 03</text>
 
-
-<g font-size="17" fill="#1d1f20">
-  <polygon points="140,1000 760,1000 730,1080 170,1080" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></polygon>
-  <text x="230" y="1048" font-size="26" font-weight="700" fill="#416180">S</text>
-  <text x="270" y="1042" font-size="14" letter-spacing="1" opacity="0.85">STREAMLINE OPERATIONS</text>
-  <text x="270" y="1064" font-size="12" opacity="0.55">Institutional SOP playbooks</text>
-
-  <polygon points="175,870 725,870 700,942 200,942" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></polygon>
-  <text x="255" y="915" font-size="26" font-weight="700" fill="#416180">C</text>
-  <text x="295" y="909" font-size="14" letter-spacing="1" opacity="0.85">CAPACITY &amp; MINDSET</text>
-  <text x="295" y="931" font-size="12" opacity="0.55">Reclaim 10&amp;ndash;15 hours a week</text>
-
-  <polygon points="210,740 690,740 668,808 232,808" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></polygon>
-  <text x="280" y="782" font-size="26" font-weight="700" fill="#416180">A</text>
-  <text x="320" y="776" font-size="14" letter-spacing="1" opacity="0.85">ALIGN THE TEAM</text>
-  <text x="320" y="798" font-size="12" opacity="0.55">One scorecard, one KPI each</text>
-
-  <polygon points="245,610 655,610 636,674 264,674" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></polygon>
-  <text x="305" y="650" font-size="26" font-weight="700" fill="#416180">L</text>
-  <text x="345" y="644" font-size="14" letter-spacing="1" opacity="0.85">LEVERAGE TECHNOLOGY</text>
-  <text x="345" y="666" font-size="12" opacity="0.55">Lean $9/mo automation</text>
-
-  <polygon points="280,480 620,480 604,540 296,540" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></polygon>
-  <text x="330" y="518" font-size="26" font-weight="700" fill="#416180">E</text>
-  <text x="370" y="512" font-size="14" letter-spacing="1" opacity="0.85">EXPAND PROFITABLY</text>
-  <text x="370" y="534" font-size="12" opacity="0.55">Premium margins, no burnout</text>
+<!-- spec plate -->
+<g>
+  <rect x="600" y="90" width="212" height="56" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.2" stroke-opacity="0.3"></rect>
+  <circle cx="622" cy="110" r="7" stroke="#1d1f20" stroke-width="1.2" stroke-opacity="0.4" fill="none"></circle>
+  <line x1="622" y1="103" x2="622" y2="117" stroke="#1d1f20" stroke-width="1" stroke-opacity="0.4"></line>
+  <line x1="615" y1="110" x2="629" y2="110" stroke="#1d1f20" stroke-width="1" stroke-opacity="0.4"></line>
+  <text x="642" y="107" font-size="10.5" font-family="monospace" fill="#1d1f20" opacity="0.55">REV 2026.08.20</text>
+  <text x="642" y="123" font-size="9" font-family="monospace" fill="#1d1f20" opacity="0.4">PROJECT — S.C.A.L.E.</text>
+  <text x="642" y="137" font-size="9" font-family="monospace" fill="#1d1f20" opacity="0.4">SCALE — NOT TO SCALE</text>
 </g>
 
-<path d="M790 1030 L790 500" stroke="#5980a6" stroke-width="1.5" opacity="0.6" fill="none"></path>
-<polygon points="790,500 782,516 798,516" fill="#5980a6" opacity="0.7"></polygon>
+<!-- ground shadow -->
+<ellipse cx="450" cy="1108" rx="270" ry="18" fill="#1d1f20" opacity="0.07"></ellipse>
 
-<text x="450" y="1116" text-anchor="middle" font-size="12" letter-spacing="2" fill="#1d1f20" opacity="0.55">FOUNDATION</text>
-<text x="450" y="450" text-anchor="middle" font-size="12" letter-spacing="2" fill="#1d1f20" opacity="0.55">PEAK EXPANSION</text>
+<!-- ascent arrow -->
+<g stroke="#5980a6" stroke-width="1.4" opacity="0.55">
+  <line x1="130" y1="1085" x2="130" y2="615"></line>
+  <line x1="122" y1="1085" x2="138" y2="1085"></line>
+</g>
+<polygon points="130,600 123,614 137,614" fill="#5980a6" opacity="0.7"></polygon>
+<text x="450" y="1128" text-anchor="middle" font-size="12" letter-spacing="2" fill="#1d1f20" opacity="0.55">FOUNDATION</text>
+<text x="450" y="580" text-anchor="middle" font-size="12" letter-spacing="2" fill="#1d1f20" opacity="0.55">PEAK EXPANSION</text>
+
+<!-- ===== ziggurat, level 0 (S, Foundation, largest/lowest) up to level 4 (E, peak, smallest/highest) ===== -->
+
+<!-- L0 -->
+<g stroke="#1d1f20" stroke-width="1.4" stroke-linejoin="round">
+  <polygon points="450,1030 709.8,880 450,730 190.2,880" fill="#d6ebff"></polygon>
+  <polygon points="450,1030 709.8,880 709.8,950 450,1100" fill="#749dc4"></polygon>
+  <polygon points="450,1030 190.2,880 190.2,950 450,1100" fill="#416180"></polygon>
+</g>
+<text x="450" y="925" text-anchor="middle" font-size="30" font-weight="700" fill="#1d2d3d">S</text>
+
+<!-- L1 -->
+<g stroke="#1d1f20" stroke-width="1.4" stroke-linejoin="round">
+  <polygon points="450,940 666.5,815 450,690 233.5,815" fill="#d6ebff"></polygon>
+  <polygon points="450,940 666.5,815 666.5,880 450,1005" fill="#749dc4"></polygon>
+  <polygon points="450,940 233.5,815 233.5,880 450,1005" fill="#416180"></polygon>
+</g>
+<text x="450" y="850" text-anchor="middle" font-size="28" font-weight="700" fill="#1d2d3d">C</text>
+
+<!-- L2 -->
+<g stroke="#1d1f20" stroke-width="1.4" stroke-linejoin="round">
+  <polygon points="450,855 623.2,755 450,655 276.8,755" fill="#d6ebff"></polygon>
+  <polygon points="450,855 623.2,755 623.2,815 450,915" fill="#749dc4"></polygon>
+  <polygon points="450,855 276.8,755 276.8,815 450,915" fill="#416180"></polygon>
+</g>
+<text x="450" y="785" text-anchor="middle" font-size="26" font-weight="700" fill="#1d2d3d">A</text>
+
+<!-- L3 -->
+<g stroke="#1d1f20" stroke-width="1.4" stroke-linejoin="round">
+  <polygon points="450,775 579.9,700 450,625 320.1,700" fill="#d6ebff"></polygon>
+  <polygon points="450,775 579.9,700 579.9,755 450,830" fill="#749dc4"></polygon>
+  <polygon points="450,775 320.1,700 320.1,755 450,830" fill="#416180"></polygon>
+</g>
+<text x="450" y="715" text-anchor="middle" font-size="24" font-weight="700" fill="#1d2d3d">L</text>
+
+<!-- L4 -->
+<g stroke="#1d1f20" stroke-width="1.4" stroke-linejoin="round">
+  <polygon points="450,700 536.6,650 450,600 363.4,650" fill="#d6ebff"></polygon>
+  <polygon points="450,700 536.6,650 536.6,700 450,750" fill="#749dc4"></polygon>
+  <polygon points="450,700 363.4,650 363.4,700 450,750" fill="#416180"></polygon>
+</g>
+<text x="450" y="645" text-anchor="middle" font-size="22" font-weight="700" fill="#1d2d3d">E</text>
+
+<!-- leader lines + legend -->
+<g stroke="#1d1f20" stroke-width="1" stroke-dasharray="2 3" opacity="0.45">
+  <line x1="493.3" y1="675" x2="700" y2="634"></line>
+  <line x1="514.95" y1="737.5" x2="700" y2="726"></line>
+  <line x1="536.6" y1="805" x2="700" y2="818"></line>
+  <line x1="558.25" y1="877.5" x2="700" y2="910"></line>
+  <line x1="579.9" y1="955" x2="700" y2="1002"></line>
+</g>
+<g fill="#416180">
+  <circle cx="493.3" cy="675" r="3"></circle>
+  <circle cx="514.95" cy="737.5" r="3"></circle>
+  <circle cx="536.6" cy="805" r="3"></circle>
+  <circle cx="558.25" cy="877.5" r="3"></circle>
+  <circle cx="579.9" cy="955" r="3"></circle>
+</g>
+
+<!-- legend row: E -->
+<g>
+  <rect x="700" y="599" width="142" height="70" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <rect x="708" y="607" width="24" height="24" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="720" y="624" text-anchor="middle" font-size="15" font-weight="700" fill="#416180">E</text>
+  <text x="740" y="620" font-size="12" font-weight="600" fill="#1d1f20" opacity="0.85">EXPAND PROFITABLY</text>
+  <text x="740" y="636" font-size="9.5" fill="#1d1f20" opacity="0.55">PREMIUM MARGINS</text>
+</g>
+<!-- legend row: L -->
+<g>
+  <rect x="700" y="691" width="142" height="70" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <rect x="708" y="699" width="24" height="24" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="720" y="716" text-anchor="middle" font-size="15" font-weight="700" fill="#416180">L</text>
+  <text x="740" y="712" font-size="12" font-weight="600" fill="#1d1f20" opacity="0.85">LEVERAGE TECH</text>
+  <text x="740" y="728" font-size="9.5" fill="#1d1f20" opacity="0.55">$9/MO AUTOMATION</text>
+</g>
+<!-- legend row: A -->
+<g>
+  <rect x="700" y="783" width="142" height="70" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <rect x="708" y="791" width="24" height="24" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="720" y="808" text-anchor="middle" font-size="15" font-weight="700" fill="#416180">A</text>
+  <text x="740" y="804" font-size="12" font-weight="600" fill="#1d1f20" opacity="0.85">ALIGN THE TEAM</text>
+  <text x="740" y="820" font-size="9.5" fill="#1d1f20" opacity="0.55">ONE KPI EACH</text>
+</g>
+<!-- legend row: C -->
+<g>
+  <rect x="700" y="875" width="142" height="70" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <rect x="708" y="883" width="24" height="24" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="720" y="900" text-anchor="middle" font-size="15" font-weight="700" fill="#416180">C</text>
+  <text x="740" y="896" font-size="12" font-weight="600" fill="#1d1f20" opacity="0.85">CAPACITY &amp; MINDSET</text>
+  <text x="740" y="912" font-size="9.5" fill="#1d1f20" opacity="0.55">10&#8211;15 HRS/WK</text>
+</g>
+<!-- legend row: S -->
+<g>
+  <rect x="700" y="967" width="142" height="70" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <rect x="708" y="975" width="24" height="24" fill="#eef6ff" stroke="#416180" stroke-width="1"></rect>
+  <text x="720" y="992" text-anchor="middle" font-size="15" font-weight="700" fill="#416180">S</text>
+  <text x="740" y="988" font-size="12" font-weight="600" fill="#1d1f20" opacity="0.85">STREAMLINE OPS</text>
+  <text x="740" y="1004" font-size="9.5" fill="#1d1f20" opacity="0.55">SOP PLAYBOOKS</text>
+</g>
 </svg>
