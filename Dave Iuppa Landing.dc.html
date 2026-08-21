@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-e4a2db8f-22d3-4ea1-a67a-9382d78e7374/styles.css">
+<script src="_ds/industry-e4a2db8f-22d3-4ea1-a67a-9382d78e7374/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; text-wrap: pretty; }
+@keyframes revealUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes growBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+a { color: var(--color-accent-700); text-underline-offset: 3px; }
+a:hover { color: var(--color-accent-900); }
+</style>
+</helmet>
+
+<div style="background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);position:relative;overflow-x:hidden">
+
+<div style="position:fixed;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform-origin:left;animation:growBar linear;animation-timeline:scroll(root);z-index:100"></div>
+
+<nav style="position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding:16px clamp(20px,5vw,72px);background:color-mix(in srgb, var(--color-bg) 92%, transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--color-divider)">
+  <div style="display:flex;flex-direction:column;margin-right:auto">
+    <span style="font-family:var(--font-heading);font-weight:600;font-size:19px;letter-spacing:0.02em;text-transform:uppercase">Dave Iuppa</span>
+    <span style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-accent-700)">SaaS Scaling Architect</span>
+  </div>
+  <a href="#framework" style="color:inherit;text-decoration:none;font-size:14px;font-weight:500;transition:color .2s" style-hover="color:var(--color-accent-700)">The Framework</a>
+  <a href="#audit" style="color:inherit;text-decoration:none;font-size:14px;font-weight:500;transition:color .2s" style-hover="color:var(--color-accent-700)">The Capacity Audit</a>
+  <a href="#about" style="color:inherit;text-decoration:none;font-size:14px;font-weight:500;transition:color .2s" style-hover="color:var(--color-accent-700)">About Dave</a>
+  <a href="#contact" class="btn btn-primary" style="text-decoration:none">Book 30-Min Strategy Call</a>
+</nav>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+
+  <!-- HERO -->
+  <section style="display:flex;flex-wrap:wrap;gap:56px;align-items:center;padding:88px 0 64px">
+    <div style="flex:1 1 460px;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:16px">For high-growth female SaaS founders ($500K&ndash;$3M ARR)</span>
+      <h1 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:0.01em;margin:0">Reclaim 15 hours a week and build a SaaS business that doesn't depend on your personal horsepower.</h1>
+      <p style="font-size:18px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);max-width:56ch;margin:24px 0 0">Stop paying the &ldquo;silent tax&rdquo; of administrative chaos and subconscious leadership ceilings. We install the operational governance, team metrics, and low-overhead automation needed to move you from exhausted, hands-on founder to aligned, scaling CEO.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:32px">
+        <a href="#audit" class="btn btn-primary" style="text-decoration:none;padding:14px 24px;font-size:15px">Take the Free 3-Min Capacity Audit</a>
+        <a href="#framework" class="btn btn-ghost" style="text-decoration:none;padding:14px 12px;font-size:15px">How it Works</a>
+      </div>
+      <p style="font-size:13px;color:color-mix(in srgb, var(--color-text) 60%, transparent);margin:16px 0 0;font-style:italic">Zero credit card required. No high-overhead CRM software required. Powered by Dave's S.C.A.L.E. AI Mentor.</p>
+    </div>
+    <figure class="blueprint duotone" style="flex:1 1 380px;max-width:520px;margin:0;aspect-ratio:4/3;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <image-slot id="hero-schema" shape="rect" src="assets/hero-schema.svg" placeholder="High-fidelity SaaS systems schema — hero graphic"></image-slot>
+    </figure>
+  </section>
+
+  <!-- DOUBLE TAX PROBLEM -->
+  <section id="problem" style="display:flex;flex-wrap:wrap-reverse;gap:56px;align-items:center;padding:56px 0">
+    <figure class="blueprint duotone" style="flex:1 1 360px;max-width:460px;margin:0;aspect-ratio:1/1;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <image-slot id="bucket-sketch" shape="rect" src="assets/bucket-sketch.svg" placeholder="The Leaky Operations Bucket — whiteboard sketch"></image-slot>
+    </figure>
+    <div style="flex:1 1 460px;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:12px">02 &middot; The Double Tax</span>
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(26px,3.2vw,36px);line-height:1.15;margin:0 0 20px">Are you running your SaaS company&mdash;or is the company running you?</h2>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 16px">Most founders expect their biggest challenge to be building a successful product. Few expect their hardest battle to be building themselves into the leader their growing company actually needs.</p>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 28px">As a female SaaS founder, you aren't just navigating operational complexity&mdash;you are also paying a hidden, societal &ldquo;double tax.&rdquo;</p>
+      <div style="display:flex;flex-direction:column;gap:22px">
+        <div style="display:flex;gap:16px">
+          <span class="tag tag-outline" style="flex:none;height:fit-content;font-family:var(--font-heading);font-weight:600">01</span>
+          <div><strong style="font-family:var(--font-heading);font-weight:600;font-size:16px">The Expectations Gap</strong><p style="margin:6px 0 0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Women's expectations for their scale and influence are socialized to run far lower than men with identical credentials &mdash; a gap that shows up as overly conservative growth targets.</p></div>
+        </div>
+        <div style="display:flex;gap:16px">
+          <span class="tag tag-outline" style="flex:none;height:fit-content;font-family:var(--font-heading);font-weight:600">02</span>
+          <div><strong style="font-family:var(--font-heading);font-weight:600;font-size:16px">The Power Penalty</strong><p style="margin:6px 0 0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Ambitious women who negotiate aggressively or reach for real market authority get labeled &ldquo;aggressive.&rdquo; To avoid the friction, you downplay your genius and hide your true scaling ambitions.</p></div>
+        </div>
+        <div style="display:flex;gap:16px">
+          <span class="tag tag-outline" style="flex:none;height:fit-content;font-family:var(--font-heading);font-weight:600">03</span>
+          <div><strong style="font-family:var(--font-heading);font-weight:600;font-size:16px">The Overpaid Coordinator Trap</strong><p style="margin:6px 0 0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">You spend your day in meetings and administrative firefighting, doing your real work late at night &mdash; the ultimate operational bottleneck, holding on out of delegation anxiety or perfectionism.</p></div>
+        </div>
+      </div>
+      <p style="font-size:16px;line-height:1.6;font-weight:500;margin:28px 0 0">True scaling is about building structural systems that protect your time, empower your team, and authorize your ultimate self-actualization as a leader.</p>
+    </div>
+  </section>
+
+  <!-- CAPACITY DIAGNOSTIC PLATE -->
+  <section style="padding:48px 0;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+    <div class="blueprint" style="padding:0">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <header style="display:flex;flex-wrap:wrap;border-bottom:1px solid var(--color-divider)">
+        <span style="flex:1;min-width:20ch;padding:12px 24px;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;font-weight:600">The capacity diagnostic &mdash; standard findings</span>
+        <span style="padding:12px 24px;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;font-weight:600;border-left:1px solid var(--color-divider);color:color-mix(in srgb, var(--color-text) 70%, transparent)">S.C.A.L.E. &middot; Sheet 01</span>
+      </header>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+        <div style="padding:28px 24px;border-right:1px solid var(--color-divider);border-top:1px solid var(--color-divider)">
+          <span ref="{{ statRef }}" data-target="50" data-suffix="%" style="display:block;font-family:var(--font-heading);font-weight:600;font-size:40px;color:var(--color-accent-700);font-feature-settings:'tnum' 1">0%</span>
+          <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Lower growth expectations women report vs. peers with identical credentials</p>
+        </div>
+        <div style="padding:28px 24px;border-right:1px solid var(--color-divider);border-top:1px solid var(--color-divider)">
+          <span ref="{{ statRef }}" data-target="15" data-suffix=" HRS/WK" style="display:block;font-family:var(--font-heading);font-weight:600;font-size:40px;color:var(--color-accent-700);font-feature-settings:'tnum' 1">0 HRS/WK</span>
+          <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Reclaimed once SOPs replace firefighting and delegation anxiety</p>
+        </div>
+        <div style="padding:28px 24px;border-right:1px solid var(--color-divider);border-top:1px solid var(--color-divider)">
+          <span ref="{{ statRef }}" data-target="9" data-prefix="$" data-suffix="/MO" style="display:block;font-family:var(--font-heading);font-weight:600;font-size:40px;color:var(--color-accent-700);font-feature-settings:'tnum' 1">$0/MO</span>
+          <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Lean ops budget replacing $300/mo CRM sprawl you use 5% of</p>
+        </div>
+        <div style="padding:28px 24px;border-top:1px solid var(--color-divider)">
+          <span ref="{{ statRef }}" data-target="3" data-suffix=" MIN" style="display:block;font-family:var(--font-heading);font-weight:600;font-size:40px;color:var(--color-accent-700);font-feature-settings:'tnum' 1">0 MIN</span>
+          <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Length of the S.C.A.L.E. AI Mentor capacity audit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCALE FRAMEWORK -->
+  <section id="framework" style="padding:64px 0">
+    <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:12px">03 &middot; The Framework</span>
+    <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(28px,3.4vw,40px);line-height:1.12;margin:0 0 40px;max-width:24ch">The S.C.A.L.E. System&trade; &mdash; five stages, one operating system.</h2>
+    <div style="display:flex;gap:48px;flex-wrap:wrap">
+      <div style="flex:2 1 480px;display:flex;flex-direction:column;gap:20px">
+        <div class="blueprint" style="padding:28px;display:flex;gap:20px;align-items:flex-start;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <span style="flex:none;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--color-accent);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:24px">S</span>
+          <div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 4px">Streamline Operations</h3>
+            <p style="margin:0 0 10px;font-size:14px;font-style:italic;color:var(--color-accent-700)">Ditch the firefighting. Build your institutional SOP playbook.</p>
+            <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">We evaluate your most frequent operational bottlenecks &mdash; billing, client onboarding &mdash; and document clean, simple SOP playbooks. If you had to step away for two weeks with zero internet access, your systems should handle business-as-usual flawlessly.</p>
+          </div>
+        </div>
+        <div class="blueprint" style="padding:28px;display:flex;gap:20px;align-items:flex-start;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <span style="flex:none;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--color-accent);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:24px">C</span>
+          <div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 4px">Capacity &amp; Mindset</h3>
+            <p style="margin:0 0 10px;font-size:14px;font-style:italic;color:var(--color-accent-700)">Clear the bottlenecks. Reclaim 10 to 15 hours a week.</p>
+            <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">We run a rigorous audit on your time, identifying where you cling to control from delegation anxiety or perfectionism, and structure an operational boundary that stops you operating as an overpaid coordinator.</p>
+          </div>
+        </div>
+        <div class="blueprint" style="padding:28px;display:flex;gap:20px;align-items:flex-start;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <span style="flex:none;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--color-accent);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:24px">A</span>
+          <div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 4px">Align the Team</h3>
+            <p style="margin:0 0 10px;font-size:14px;font-style:italic;color:var(--color-accent-700)">Shift from micromanagement to a simple weekly scorecard.</p>
+            <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">We move away from endless Slack check-ins and install clear weekly metric sheets based on the Most Important Number methodology. Every team member owns a single KPI and understands how their role contributes to the collective score.</p>
+          </div>
+        </div>
+        <div class="blueprint" style="padding:28px;display:flex;gap:20px;align-items:flex-start;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <span style="flex:none;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--color-accent);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:24px">L</span>
+          <div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 4px">Leverage Technology</h3>
+            <p style="margin:0 0 10px;font-size:14px;font-style:italic;color:var(--color-accent-700)">Eliminate tech sprawl. Automate your client journeys.</p>
+            <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">We audit your software stack to remove expensive, overcomplicated CRM platforms you use 5% of, and replace them with simple automated workflows inside your existing infrastructure &mdash; a lightweight $9/month operations budget.</p>
+          </div>
+        </div>
+        <div class="blueprint" style="padding:28px;display:flex;gap:20px;align-items:flex-start;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <span style="flex:none;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--color-accent);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:24px">E</span>
+          <div>
+            <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 4px">Expand Profitably</h3>
+            <p style="margin:0 0 10px;font-size:14px;font-style:italic;color:var(--color-accent-700)">Double your package margins without doubling delivery stress.</p>
+            <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">We audit your MRR leaks, underpriced consulting contracts, and delivery friction, then engineer premium pricing tiers and high-retention onboarding cycles so you scale your bottom line without burning out your life.</p>
+          </div>
+        </div>
+      </div>
+      <figure class="blueprint duotone" style="flex:1 1 260px;max-width:340px;margin:0;align-self:flex-start;position:sticky;top:96px;aspect-ratio:3/4">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <image-slot id="isometric-blueprint" shape="rect" src="assets/isometric-blueprint.svg" placeholder="Five-stage isometric blueprint — Foundation to Peak Expansion"></image-slot>
+      </figure>
+    </div>
+  </section>
+
+  <!-- THREE-DIMENSIONAL ADVISORY MODEL -->
+  <section style="padding:64px 0;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+    <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:12px">04 &middot; The Advisory Model</span>
+    <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(28px,3.4vw,40px);line-height:1.15;margin:0 0 20px;max-width:22ch">Beyond spreadsheets: a complete growth container.</h2>
+    <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);max-width:70ch;margin:0 0 36px">Many operations consultants hand you a dry spreadsheet and walk away. Many life coaches give you generic advice but lack enterprise business credentials. As a SaaS Scaling Architect, Dave integrates three distinct dimensions of leadership support to ensure both organizational scale and personal longevity.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
+      <div class="blueprint" style="padding:28px;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <span class="tag tag-accent" style="margin-bottom:14px">01 &middot; Consulting</span>
+        <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 8px">Technical Systems</h3>
+        <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Installing raw operational infrastructure, documentation protocols, and lightweight $9/mo software integrations to automate manual bottlenecks.</p>
+      </div>
+      <div class="blueprint" style="padding:28px;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <span class="tag tag-accent" style="margin-bottom:14px">02 &middot; Mentoring</span>
+        <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 8px">Lived Experience</h3>
+        <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Three decades of executive mastery leading global teams, managing thousands of people, and navigating hyper-growth inside tech giants like HP, IBM, and Intuit.</p>
+      </div>
+      <div class="blueprint" style="padding:28px;transition:transform .25s ease,border-color .25s ease" style-hover="transform:translateY(-3px);border-color:var(--color-accent)">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <span class="tag tag-accent" style="margin-bottom:14px">03 &middot; Coaching</span>
+        <h3 style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin:0 0 8px">Identity &amp; Mindset Integration</h3>
+        <p style="margin:0;font-size:15px;line-height:1.55;color:color-mix(in srgb, var(--color-text) 78%, transparent)">Actively constructing a high-trust growth container to dismantle delegation anxiety, defeat the expectations gap, and safely authorize your true scaling ambitions.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+  <!-- AI MENTOR (dark full-bleed) -->
+  <section id="audit" style="background:var(--color-accent-900);color:var(--color-bg);padding:80px 0">
+    <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:56px;align-items:center">
+      <div style="flex:1 1 400px;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+        <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-300);margin-bottom:12px">05 &middot; The Interactive Audit</span>
+        <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(26px,3.2vw,36px);line-height:1.15;margin:0 0 20px">Audit your SaaS capacity on autopilot.</h2>
+        <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-bg) 82%, transparent);margin:0 0 16px">Instead of a cold, multiple-choice quiz, run a conversational diagnostic with Dave's custom digital surrogate &mdash; trained on his exact voice, MBA operational vocabulary, and mentoring framework.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-top:24px">
+          <div style="display:flex;gap:14px;align-items:flex-start">
+            <span class="tag tag-outline" style="flex:none;border-color:var(--color-accent-300);color:var(--color-accent-300)">01</span>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:color-mix(in srgb, var(--color-bg) 82%, transparent)"><strong style="color:var(--color-bg)">Takes 3 minutes</strong> &mdash; evaluates your business against the 5 core S.C.A.L.E. pillars.</p>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start">
+            <span class="tag tag-outline" style="flex:none;border-color:var(--color-accent-300);color:var(--color-accent-300)">02</span>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:color-mix(in srgb, var(--color-bg) 82%, transparent)"><strong style="color:var(--color-bg)">Uncovers invisible ceilings</strong> &mdash; pinpoints technical leaks and internal leadership bottlenecks alike.</p>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start">
+            <span class="tag tag-outline" style="flex:none;border-color:var(--color-accent-300);color:var(--color-accent-300)">03</span>
+            <p style="margin:0;font-size:15px;line-height:1.5;color:color-mix(in srgb, var(--color-bg) 82%, transparent)"><strong style="color:var(--color-bg)">Instant playbook</strong> &mdash; generates a custom roadmap that pinpoints your exact time leaks and system boundaries.</p>
+          </div>
+        </div>
+      </div>
+      <div class="blueprint" style="flex:1 1 380px;max-width:480px;border-color:color-mix(in srgb, var(--color-bg) 30%, transparent);padding:0;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid color-mix(in srgb, var(--color-bg) 20%, transparent)">
+          <span style="font-family:var(--font-heading);font-weight:600;font-size:15px">System Architect AI</span>
+          <span class="tag tag-outline" style="border-color:var(--color-accent-300);color:var(--color-accent-300)">Static preview</span>
+        </div>
+        <div style="padding:20px;display:flex;flex-direction:column;gap:12px">
+          <div style="background:color-mix(in srgb, var(--color-bg) 10%, transparent);border:1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);padding:14px 16px;max-width:90%;font-size:14px;line-height:1.55">&ldquo;Hi! I'm the System Architect AI, trained by Dave. I'm here to understand your growth bottlenecks and identify your unique path to scale. Ready for a quick 5-question diagnostic to pinpoint your score?&rdquo;</div>
+        </div>
+        <div style="display:flex;gap:8px;padding:16px 20px;border-top:1px solid color-mix(in srgb, var(--color-bg) 20%, transparent)">
+          <input class="input" type="text" placeholder="Type your answer&hellip;" disabled="{{ true }}" style="background:transparent;border-color:color-mix(in srgb, var(--color-bg) 25%, transparent);color:var(--color-bg)" />
+          <button type="button" class="btn btn-secondary" disabled="{{ true }}" style="border-color:color-mix(in srgb, var(--color-bg) 25%, transparent);color:var(--color-bg)">Send</button>
+        </div>
+        <p style="margin:0;padding:0 20px 18px;font-size:12px;font-style:italic;color:color-mix(in srgb, var(--color-bg) 55%, transparent)">Live diagnostic activates at launch.</p>
+      </div>
+    </div>
+  </section>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+
+  <!-- ABOUT DAVE -->
+  <section id="about" style="display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start;padding:72px 0">
+    <figure class="blueprint duotone" style="flex:1 1 280px;max-width:340px;margin:0;aspect-ratio:4/5;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <image-slot id="dave-portrait" shape="rect" placeholder="Dave Iuppa — corporate portrait"></image-slot>
+    </figure>
+    <div style="flex:2 1 420px;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+      <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:12px">06 &middot; About Dave</span>
+      <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(26px,3.2vw,36px);line-height:1.15;margin:0 0 20px;max-width:20ch">A systems expert who has lived the transition himself.</h2>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 16px">Many business advisors teach scaling from textbooks or generic agency templates. I spent my career actually building the infrastructure.</p>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 16px">Over the past three decades, I have built massive sales and global support organizations, hired and managed thousands of people, and led teams through hyper-growth scaling inside global tech titans like HP, IBM, and Intuit.</p>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 16px">My consulting style isn't about throwing cold spreadsheets or overwhelming technical checklists at you. I understand that scaling a business is fundamentally a human and leadership transformation, not just a business transaction.</p>
+      <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 0 16px">My job isn't to make you follow my decisions. It is to install a structured, repeatable operational process that empowers you to make and own the hard executive decisions needed to lead your company with complete clarity.</p>
+      <p style="font-size:16px;line-height:1.6;font-weight:500;margin:0">Let's organize your team, your operations, and your technology so you can scale sustainable growth and buy back your sacred Maker time.</p>
+    </div>
+  </section>
+
+  <!-- CTA / BOOKING -->
+  <section id="contact" style="max-width:640px;margin:0 auto;padding:80px 0;text-align:center;animation:revealUp .7s ease-out both;animation-timeline:view();animation-range:entry 0% cover 30%">
+    <span style="display:block;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;color:var(--color-accent-700);margin-bottom:12px">07 &middot; Secure Your Capacity</span>
+    <h2 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(28px,3.4vw,40px);line-height:1.15;margin:0 0 20px">Let's secure your capacity.</h2>
+    <p style="font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0 auto 40px;max-width:52ch">If you are running a high-growth SaaS business doing $500K+ ARR and you are ready to stop putting out fires and start scaling systems, let's talk. We'll run a pre-qualified 30-minute Zoom strategy session to walk through your AI Mentor diagnostic scorecard, pinpoint your exact capacity leak, and map out your custom operational roadmap.</p>
+
+    <div class="blueprint" style="padding:28px;text-align:left">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px">
+        <span class="tag tag-accent">30 Minutes</span>
+        <span class="tag tag-neutral">Zoom Video Call</span>
+      </div>
+      <hr class="hr" style="margin:0 0 18px" />
+      <p style="margin:0 0 14px;font-size:13px;font-style:italic;color:color-mix(in srgb, var(--color-text) 60%, transparent)">Booking widget &mdash; connect Calendly or TidyCal to activate live scheduling.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-bottom:20px">
+        <button type="button" class="btn btn-secondary" disabled="{{ true }}" style="opacity:.5">9:00 AM</button>
+        <button type="button" class="btn btn-secondary" disabled="{{ true }}" style="opacity:.5">11:30 AM</button>
+        <button type="button" class="btn btn-secondary" disabled="{{ true }}" style="opacity:.5">1:00 PM</button>
+        <button type="button" class="btn btn-secondary" disabled="{{ true }}" style="opacity:.5">3:30 PM</button>
+      </div>
+      <button type="button" class="btn btn-primary btn-block">Schedule My 30-Minute Strategy Call with Dave</button>
+    </div>
+    <p style="font-size:12px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 55%, transparent);margin:20px 0 0;font-style:italic">Dave's advisory services focus strictly on management systems, team alignment, and operational efficiency. We explicitly do not offer legal, financial, or tax bookkeeping advice.</p>
+  </section>
+
+  <footer style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding:32px 0;border-top:1px solid var(--color-divider);font-size:13px;color:color-mix(in srgb, var(--color-text) 60%, transparent)">
+    <span>&copy; 2026 Dave Iuppa &mdash; SaaS Scaling Architect</span>
+    <div style="display:flex;gap:20px">
+      <a href="#framework" style="color:inherit;text-decoration:none" style-hover="color:var(--color-accent-700)">The Framework</a>
+      <a href="#audit" style="color:inherit;text-decoration:none" style-hover="color:var(--color-accent-700)">The Capacity Audit</a>
+      <a href="#about" style="color:inherit;text-decoration:none" style-hover="color:var(--color-accent-700)">About Dave</a>
+    </div>
+  </footer>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  stats = [];
+
+  statRef = (el) => {
+    if (el && !this.stats.includes(el)) this.stats.push(el);
+  };
+
+  componentDidMount() {
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          this.animateStat(entry.target);
+          this.observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    this.stats.forEach((el) => this.observer.observe(el));
+  }
+
+  componentWillUnmount() {
+    if (this.observer) this.observer.disconnect();
+  }
+
+  animateStat(el) {
+    const target = parseFloat(el.dataset.target);
+    const prefix = el.dataset.prefix || '';
+    const suffix = el.dataset.suffix || '';
+    const duration = 1100;
+    const start = performance.now();
+    const step = (now) => {
+      const p = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = prefix + Math.round(target * eased) + suffix;
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  renderVals() {
+    return { statRef: this.statRef };
+  }
+}
+</script>
+</body>
+</html>

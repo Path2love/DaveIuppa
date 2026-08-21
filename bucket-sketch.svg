@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" font-family="Arial, sans-serif">
+<rect width="1000" height="1000" fill="#f2f2f3"></rect>
+<defs>
+  <pattern id="dots2" width="44" height="44" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#1d1f20" opacity="0.08"></circle>
+  </pattern>
+</defs>
+<rect width="1000" height="1000" fill="url(#dots2)"></rect>
+<rect x="48" y="48" width="904" height="904" fill="none" stroke="#1d1f20" stroke-opacity="0.3" stroke-width="1.5"></rect>
+<g stroke="#1d1f20" stroke-width="1.5" opacity="0.5">
+  <line x1="48" y1="48" x2="80" y2="48"></line><line x1="48" y1="48" x2="48" y2="80"></line>
+  <line x1="952" y1="48" x2="920" y2="48"></line><line x1="952" y1="48" x2="952" y2="80"></line>
+  <line x1="48" y1="952" x2="80" y2="952"></line><line x1="48" y1="952" x2="48" y2="920"></line>
+  <line x1="952" y1="952" x2="920" y2="952"></line><line x1="952" y1="952" x2="952" y2="920"></line>
+</g>
+<text x="90" y="112" font-size="13" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.5">FIG. 01 — THE LEAKY OPERATIONS BUCKET</text>
+
+<g stroke="#1d1f20" stroke-width="1.8" fill="none">
+  <path d="M400 340 L600 340 L580 620 A100 26 0 0 1 420 620 Z"></path>
+  <ellipse cx="500" cy="340" rx="100" ry="24"></ellipse>
+</g>
+
+<g stroke="#5980a6" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85">
+  <path d="M448 520 C 430 560, 460 580, 442 630 C 428 665, 452 690, 438 730"></path>
+  <path d="M500 560 C 490 600, 512 620, 500 660 C 490 695, 512 715, 500 750"></path>
+  <path d="M552 520 C 570 560, 540 580, 558 630 C 572 665, 548 690, 562 730"></path>
+</g>
+
+<g font-size="14" fill="#1d1f20" opacity="0.8">
+  <rect x="290" y="742" width="180" height="40" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <text x="380" y="767" text-anchor="middle">MANUAL ONBOARDING</text>
+  <rect x="400" y="770" width="200" height="40" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <text x="500" y="795" text-anchor="middle">SPAGHETTI TECH STACK</text>
+  <rect x="530" y="742" width="200" height="40" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.3"></rect>
+  <text x="630" y="767" text-anchor="middle">ZERO PROCESS SOPs</text>
+</g>
+</svg>

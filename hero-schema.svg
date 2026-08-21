@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Arial, sans-serif">
+<rect width="1200" height="900" fill="#f2f2f3"></rect>
+<defs>
+  <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#1d1f20" opacity="0.08"></circle>
+  </pattern>
+</defs>
+<rect width="1200" height="900" fill="url(#dots)"></rect>
+<rect x="48" y="48" width="1104" height="804" fill="none" stroke="#1d1f20" stroke-opacity="0.3" stroke-width="1.5"></rect>
+<g stroke="#1d1f20" stroke-width="1.5" opacity="0.5">
+  <line x1="48" y1="48" x2="80" y2="48"></line><line x1="48" y1="48" x2="48" y2="80"></line>
+  <line x1="1152" y1="48" x2="1120" y2="48"></line><line x1="1152" y1="48" x2="1152" y2="80"></line>
+  <line x1="48" y1="852" x2="80" y2="852"></line><line x1="48" y1="852" x2="48" y2="820"></line>
+  <line x1="1152" y1="852" x2="1120" y2="852"></line><line x1="1152" y1="852" x2="1152" y2="820"></line>
+</g>
+<text x="90" y="112" font-size="13" letter-spacing="2" font-family="monospace" fill="#1d1f20" opacity="0.5">SCHEMA — S.C.A.L.E. OPERATING SYSTEM</text>
+
+<line x1="164" y1="470" x2="1036" y2="470" stroke="#5980a6" stroke-width="1.5" opacity="0.55"></line>
+<polygon points="1036,470 1020,462 1020,478" fill="#5980a6" opacity="0.7"></polygon>
+
+<g font-size="15" fill="#1d1f20">
+  
+  <g transform="translate(120,390)">
+    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">S</text>
+    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
+      <circle cx="70" cy="80" r="20"></circle>
+      <circle cx="70" cy="80" r="7"></circle>
+      <line x1="70" y1="60" x2="70" y2="53"></line><line x1="70" y1="100" x2="70" y2="107"></line>
+      <line x1="50" y1="80" x2="43" y2="80"></line><line x1="90" y1="80" x2="97" y2="80"></line>
+    </g>
+    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">STREAMLINE</text>
+  </g>
+  <g transform="translate(340,390)">
+    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">C</text>
+    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
+      <circle cx="70" cy="80" r="22"></circle>
+      <line x1="70" y1="80" x2="70" y2="64"></line>
+      <line x1="70" y1="80" x2="82" y2="86"></line>
+    </g>
+    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">CAPACITY</text>
+  </g>
+  <g transform="translate(560,390)">
+    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">A</text>
+    <g stroke="#1d1f20" stroke-width="1.6" fill="none" opacity="0.75">
+      <circle cx="52" cy="92" r="7"></circle><circle cx="88" cy="92" r="7"></circle><circle cx="70" cy="62" r="7"></circle>
+      <line x1="70" y1="69" x2="52" y2="85"></line><line x1="70" y1="69" x2="88" y2="85"></line><line x1="52" y1="92" x2="88" y2="92"></line>
+    </g>
+    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">ALIGN</text>
+  </g>
+  <g transform="translate(780,390)">
+    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">L</text>
+    <g stroke="#1d1f20" stroke-width="1.6" fill="none" stroke-linejoin="round" opacity="0.75">
+      <polygon points="76,58 56,90 68,90 62,104 84,72 71,72" fill="none"></polygon>
+    </g>
+    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">LEVERAGE</text>
+  </g>
+  <g transform="translate(1000,390)">
+    <rect width="140" height="140" fill="#f2f2f3" stroke="#1d1f20" stroke-width="1.5"></rect>
+    <text x="70" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#416180">E</text>
+    <g stroke="#1d1f20" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.75">
+      <path d="M70 58 C 82 66, 84 84, 70 100 C 56 84, 58 66, 70 58 Z"></path>
+      <line x1="63" y1="98" x2="58" y2="108"></line><line x1="77" y1="98" x2="82" y2="108"></line>
+    </g>
+    <text x="70" y="126" text-anchor="middle" font-size="12" letter-spacing="1" opacity="0.7">EXPAND</text>
+  </g>
+</g>
+</svg>
